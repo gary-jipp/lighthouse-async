@@ -8,6 +8,7 @@ const plus1 = function(num) {
 
 // If we send the sayHello to a functon that expects a function as a parameter
 const callThisFunction = function(theFunction) {
+  // maybe do some stuff
   theFunction("Alice");
 };
 
