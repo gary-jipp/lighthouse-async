@@ -15,17 +15,17 @@ const callThisFunction = function(theFunction) {
 // They are "equal". That means they are interchangable
 
 // So we can do this
-callThisFunction(sayHello);
+callMyFunction(sayHello);
 
 // or this
-callThisFunction(function(name) {console.log("Hello", name);});
+callMyFunction(function(name) {console.log("Hello", name);});
 
 // We are passing an 'anonymous' function (has no name)
 // Of course we almost always use Arrow functions
 
 // Can remove the braces
 // Don't need the () if only one param, but doesn't hurt to include them
-callThisFunction((name) => console.log("Hello", name));
+callMyFunction((name) => console.log("Hello", name));
 
 // If I pass a function that doesn't need a param, its just ignored.
-callThisFunction(() => console.log("Hello"));
+callMyFunction(() => console.log("Hello"));

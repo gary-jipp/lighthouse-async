@@ -1,3 +1,5 @@
+// We can create Functions in JavaScript
+
 // We can declare a function like this
 // function sayHello(name) {
 //   console.log(name);
