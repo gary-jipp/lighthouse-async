@@ -1,8 +1,9 @@
-# Review: Functions, Callbacks, Async
+# Functions & Callbacks,
 
-* Functions
-* Callbacks
-* Anonymous Functions
-* Async Functions
-* Single Threaded JavaScript
-* Promises **
+* [ ] Values (primitives, Objects)
+* [ ] Variables
+* [ ] Declaring Functions
+* [ ] Functions are Values
+* [ ] Functions as Objects
+* [ ] Callbacks
+*
