@@ -15,6 +15,7 @@ sayHello("Mallory");
 
 // This variable can be treated like any other variable, including used as a parameter
 console.log(sayHello);  // this doesn't really do anything that interesting since console.log doesn't do anything but print whatever it gets
+console.log(sayHello.toString());  // A little more interesting
 
 // A function should know what its supposed to do with each parameter it gets
 sayHello("My Name"); // sayHello knows that its getting a "String" and does whatever it does with strings
