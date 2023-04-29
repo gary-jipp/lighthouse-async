@@ -1,21 +1,51 @@
 // We can create Functions in JavaScript
 
 // We can declare a function like this
-// function sayHello(name) {
-//   console.log(name);
+// function sayHello() {
+//   console.log("hello");
 // }
 
 // The newer way to declare a function is like this
-let sayHello = function(name) {
-  console.log("Hello", name);
+let sayHello = function() {
+  console.log("Hello");
 };
 
 // This is called a Functional Expression rather than a function declaration
 // variable = anonymous function
-// This means we can use the variable in place of the function
-sayHello("Mallory");
+// This means we can use the variable as if it was the function itself
+sayHello();
 
+
+// Discussion on Scope ***
+const theName = "Mallory";
+
+// Scope - can use "external" variable
+let sayHelloName = function() {
+  const theName = "Alice";
+  console.log("Hello", tsheName);
+};
+sayHelloName();
+
+// JavaScript searches outwards to find a variable ("reference")
+// Reference not found error if not found
+
+// Instead of using external variables,
+// its often a lot better to use "parameters" (arguments)
+
+// Scope - can use "external" variable
+sayHelloName = function(name) {
+  console.log("Hello", name);
+};
+sayHelloName("Alice");
+
+// This is stuff we already know of course, but it sets the foundation for the next topic:
+// Callbacks!
+
+// Since a function can be assigned to a variable, we alreadu proved that.
 // This variable can be treated like any other variable, including used as a parameter
+// - We can give a variable a different value - hence the name! :)
+// - we can send a variable as a pramater to another function
+
 console.log(sayHello);  // this doesn't really do anything that interesting since console.log doesn't do anything but print whatever it gets
 console.log(sayHello.toString());  // A little more interesting
 
