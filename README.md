@@ -1,4 +1,4 @@
-# Review: Functions, Callbacks, Async
+# Functions, Callbacks, Async
 * Values (primitives, Objects)
 * Variables
 * Declaring Functions
